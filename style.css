@@ -1,0 +1,1499 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  width: 1300px;
+}
+.container .menu {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(201, 0, 0);
+  align-items: center;
+}
+.container .menu__links {
+  width: 680px;
+  list-style: none;
+}
+.container .menu__elem {
+  align-items: center;
+}
+.container .menu__elem img {
+  margin-right: 100px;
+}
+.container .menu__elem a,
+.container .menu__elem span {
+  color: rgb(0, 0, 0);
+  font-family: "Circe";
+  text-decoration: none;
+}
+.container .menu__brand {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  text-transform: uppercase;
+  color: rgb(236, 27, 46);
+  width: 217px;
+  height: 40px;
+  line-height: 140%;
+  font-family: "Circe Bold";
+}
+.container .menu__link {
+  list-style: none;
+}
+.container .menu__button {
+  font-family: "Circe Bold";
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: rgb(119, 0, 231);
+  background-color: rgb(236, 27, 46);
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.container .menu__button:hover {
+  background-color: rgb(171, 42, 53);
+}
+.container .submenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.container .submenu__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .submenu__link {
+  list-style: none;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  margin-left: 20px;
+  font-family: "Circe Bold";
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.container .submenu__link a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.button {
+  font-family: "Circe Bold";
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 42px;
+  padding-right: 42px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(236, 27, 46);
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: rgb(171, 42, 53);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+.container .menu {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(51, 51, 51);
+  align-items: center;
+}
+.container .menu__links {
+  display: flex;
+  justify-content: space-between;
+  width: 680px;
+  list-style: none;
+}
+.container .menu__elem {
+  display: flex;
+  align-items: center;
+}
+.container .menu__elem img {
+  margin-right: 20px;
+}
+.container .menu__elem a,
+.container .menu__elem span {
+  color: rgb(0, 0, 0);
+  font-family: "Circe";
+  text-decoration: none;
+}
+.container .menu__link {
+  list-style: none;
+}
+.container .menu__brand {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  text-transform: uppercase;
+  color: rgb(236, 27, 46);
+  width: 260px;
+  line-height: 140%;
+  height: 40px;
+  font-family: "Circe Bold";
+}
+.container .menu__button {
+  font-family: "Circe Bold";
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(237, 29, 46);
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.container .menu__button:hover {
+  background-color: rgb(153, 41, 50);
+}
+
+.submenu {
+  /*  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px; */
+}
+.submenu__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.submenu__link {
+  list-style: none;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  margin-left: 20px;
+  font-family: "Circe Bold";
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.submenu__link a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.slider {
+  width: 1920px;
+  background-image: url("./images/back.png");
+  background-position: center;
+  background-size: cover;
+  padding-top: 130px;
+  padding-bottom: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.slider .container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  align-items: start;
+}
+.slider h1 {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: "Circe ExtraBold";
+  color: rgb(255, 255, 255);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: rgba(75, 74, 74, 0.637);
+  width: 540px;
+  line-height: 140%;
+}
+
+.button {
+  font-family: "Circe Bold";
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(236, 27, 46);
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: rgb(179, 35, 47);
+}
+
+.school {
+  display: flex;
+  justify-content: space-between;
+  width: 1300px;
+  height: 580px;
+}
+.school .container {
+  display: flex;
+  padding-top: 150px;
+}
+.school .container__Text {
+  position: relative;
+  border: 10px solid rgb(236, 27, 46);
+  margin-right: 150px;
+  font-style: normal;
+  width: 640px;
+  height: 405px;
+}
+.school .container__Text .borderHead {
+  position: absolute;
+  top: 0;
+  left: 30%;
+  right: 20%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  transform: translateX(-30%) translateY(-10px);
+  line-height: 15px;
+  font-family: "Circe ExtraBold";
+  font-size: 48px;
+  font-weight: 800;
+  color: rgb(51, 51, 51);
+  background: rgb(255, 255, 255);
+  width: 400px;
+}
+.school .container__Text p {
+  width: 458px;
+  height: 243px;
+  padding-top: 86px;
+  padding-bottom: 76px;
+  padding-left: 90px;
+  padding-right: 90px;
+  line-height: 130%;
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: rgb(51, 51, 51);
+}
+
+.kurs {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  padding-top: 150px;
+  width: 1300px;
+}
+.kurs__stoimost {
+  display: flex;
+  color: rgb(51, 51, 51);
+  position: relative;
+  text-align: center;
+}
+.kurs__stoimost h1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Circe ExtraBold";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 140%;
+  padding-left: 280px;
+  width: 634px;
+  height: 67px;
+}
+.kurs__knopki {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+.kurs__knopki .button1 {
+  font-family: "Circe Bold";
+  font-size: 16px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: rgb(236, 27, 46);
+  width: 135px;
+  height: 44px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 100px;
+  margin-left: 30px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.kurs__knopki .button1:hover {
+  background-color: rgb(124, 33, 41);
+}
+.kurs__points {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+  padding-top: 55px;
+}
+.kurs__points .Spanish {
+  width: 306px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: baseline;
+  width: 306px;
+  height: 68px;
+}
+.kurs__points .Spanish h2 {
+  font-family: "Circe ExtraBold";
+  color: rgb(236, 27, 46);
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  width: 200px;
+  height: 68px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.kurs__points .for_adults {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  width: 306px;
+  height: 68px;
+}
+.kurs__points .for_adults h2 {
+  font-family: "Circe ExtraBold";
+  color: rgb(51, 51, 51);
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  padding-left: 24px;
+  padding-right: 24px;
+  width: 200px;
+  height: 68px;
+}
+.kurs__points .Individual {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  width: 306px;
+  height: 68px;
+}
+.kurs__points .Individual h2 {
+  font-family: "Circe ExtraBold";
+  color: rgb(51, 51, 51);
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  padding-left: 24px;
+  padding-right: 24px;
+  width: 290px;
+  height: 68px;
+}
+.kurs__points .Preparation {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.kurs__points .Preparation h2 {
+  font-family: "Circe ExtraBold";
+  color: rgb(51, 51, 51);
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  padding-left: 24px;
+  padding-right: 24px;
+  position: relative;
+  width: 306px;
+  height: 68px;
+}
+
+.table {
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+  border-spacing: 0px;
+  width: 1000px;
+}
+.table__training {
+  font-family: "Circe Bold";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: rgb(51, 51, 51);
+  background: rgba(51, 51, 51, 0.05);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.table__training .Groups {
+  width: 180px;
+  height: 48px;
+}
+.table__training .Intensity {
+  width: 300px;
+  height: 48px;
+}
+.table__training .Cost {
+  width: 596px;
+  height: 48px;
+}
+.table__stroka1 h3 {
+  font-family: "Circe Bold";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: rgb(51, 51, 51);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.table__stroka1 h3 span {
+  width: 80px;
+  height: 30px;
+  padding: 5px 5px 5px 5px;
+  background: rgb(236, 27, 46);
+  color: rgb(255, 255, 255);
+}
+.table__stroka2 h3 {
+  font-family: "Circe Bold";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: rgb(51, 51, 51);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.table__stroka2 h3 span {
+  width: 80px;
+  height: 30px;
+  padding: 5px 5px 5px 5px;
+  background: rgb(236, 27, 46);
+  color: rgb(255, 255, 255);
+}
+.table__stroka3 h3 {
+  font-family: "Circe Bold";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: rgb(51, 51, 51);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.table__stroka3 h3 span {
+  width: 80px;
+  height: 30px;
+  padding: 5px 5px 5px 5px;
+  background: rgb(236, 27, 46);
+  color: rgb(255, 255, 255);
+}
+.table__stroka4 h3 {
+  font-family: "Circe Bold";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: rgb(51, 51, 51);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.table__stroka4 h3 span {
+  width: 80px;
+  height: 30px;
+  padding: 5px 5px 5px 5px;
+  background: rgb(236, 27, 46);
+  color: rgb(255, 255, 255);
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 1300px;
+  position: relative;
+  text-align: center;
+  padding-top: 100px;
+  font-family: "Circe ExtraBold";
+  font-weight: 800;
+  font-style: normal;
+}
+.name h1 {
+  display: flex;
+  justify-content: center;
+  line-height: 140%;
+  padding-left: 530px;
+  width: 222px;
+  height: 67px;
+  font-size: 48px;
+  color: rgb(51, 51, 51);
+}
+
+.exam {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 1300px;
+  padding-top: 50px;
+}
+.exam__Massa {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  width: 306px;
+}
+.exam__Massa h2 {
+  width: 266px;
+  font-family: "Circe Bold";
+  color: rgb(36, 34, 34);
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+}
+.exam__Massa li {
+  width: 266px;
+  font-family: "Circe";
+}
+.exam__Massa .button {
+  flex: 1 1 auto;
+  font-family: "Circe Bold";
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 200px;
+  margin-right: 200px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(236, 27, 46);
+  transition: all 0.3s;
+  cursor: pointer;
+  height: 50px;
+  line-height: 50px;
+}
+.exam__Massa .button:hover {
+  background-color: rgb(156, 45, 54);
+}
+.exam__Erat {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  width: 306px;
+}
+.exam__Erat h2 {
+  width: 266px;
+  font-family: "Circe Bold";
+  color: rgb(36, 34, 34);
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+}
+.exam__Erat li {
+  width: 266px;
+  font-family: "Circe";
+}
+.exam__Erat .button {
+  font-family: "Circe Bold";
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 200px;
+  margin-right: 200px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(236, 27, 46);
+  transition: all 0.3s;
+  cursor: pointer;
+  height: 50px;
+  line-height: 50px;
+}
+.exam__Erat .button:hover {
+  background-color: rgb(171, 42, 53);
+}
+.exam__Libero {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  width: 306px;
+}
+.exam__Libero h2 {
+  width: 266px;
+  font-family: "Circe Bold";
+  color: rgb(36, 34, 34);
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+}
+.exam__Libero li {
+  width: 266px;
+  font-family: "Circe";
+}
+.exam__Libero .button {
+  font-family: "Circe Bold";
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 200px;
+  margin-right: 200px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(236, 27, 46);
+  transition: all 0.3s;
+  cursor: pointer;
+  height: 50px;
+  line-height: 50px;
+}
+.exam__Libero .button:hover {
+  background-color: rgb(145, 35, 44);
+}
+.exam__Laoreet {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  width: 306px;
+}
+.exam__Laoreet h2 {
+  width: 266px;
+  font-family: "Circe Bold";
+  color: rgb(36, 34, 34);
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+}
+.exam__Laoreet li {
+  width: 266px;
+  font-family: "Circe";
+}
+.exam__Laoreet .button {
+  font-family: "Circe Bold";
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 200px;
+  margin-right: 200px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(236, 27, 46);
+  transition: all 0.3s;
+  cursor: pointer;
+  height: 50px;
+  line-height: 50px;
+}
+.exam__Laoreet .button:hover {
+  background-color: rgb(143, 37, 46);
+}
+
+.event {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 1300px;
+  padding-top: 50px;
+}
+.event__Sed {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  width: 416px;
+}
+.event__Sed h2 {
+  font-family: "Circe Bold";
+  color: rgb(36, 34, 34);
+  font-weight: 700;
+  font-size: 24px;
+}
+.event__Sed p {
+  font-family: "Circe";
+  padding-bottom: 30px;
+  font-weight: 400;
+}
+.event__Sed .button {
+  flex: 1 1 auto;
+  font-family: "Circe Bold";
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 100px;
+  margin-right: 260px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(236, 27, 46);
+  transition: all 0.3s;
+  cursor: pointer;
+  height: 40px;
+  line-height: 50px;
+}
+.event__Sed .button:hover {
+  background-color: rgb(145, 35, 44);
+}
+.event__Magna {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  width: 416px;
+}
+.event__Magna h2 {
+  font-family: "Circe Bold";
+  color: rgb(36, 34, 34);
+  font-weight: 700;
+  font-size: 24px;
+}
+.event__Magna p {
+  font-family: "Circe";
+  padding-bottom: 30px;
+  font-weight: 400;
+}
+.event__Magna .button {
+  flex: 1 1 auto;
+  font-family: "Circe Bold";
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 100px;
+  margin-right: 260px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(236, 27, 46);
+  transition: all 0.3s;
+  cursor: pointer;
+  height: 40px;
+  line-height: 50px;
+}
+.event__Magna .button:hover {
+  background-color: rgb(145, 35, 44);
+}
+.event__Id {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  width: 416px;
+}
+.event__Id h2 {
+  font-family: "Circe Bold";
+  color: rgb(36, 34, 34);
+  font-weight: 700;
+  font-size: 24px;
+}
+.event__Id p {
+  font-family: "Circe";
+  padding-bottom: 30px;
+  font-weight: 400;
+}
+.event__Id .button {
+  flex: 1 1 auto;
+  font-family: "Circe Bold";
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 100px;
+  margin-right: 260px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(236, 27, 46);
+  transition: all 0.3s;
+  cursor: pointer;
+  height: 40px;
+  line-height: 50px;
+}
+.event__Id .button:hover {
+  background-color: rgb(171, 42, 53);
+}
+
+.name2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 1300px;
+  position: relative;
+  text-align: center;
+  padding-top: 100px;
+  font-family: "Circe ExtraBold";
+  font-weight: 800;
+  font-style: normal;
+}
+.name2 h1 {
+  display: flex;
+  justify-content: center;
+  line-height: 140%;
+  padding-left: 530px;
+  width: 348px;
+  height: 67px;
+  font-size: 48px;
+  color: rgb(51, 51, 51);
+}
+
+.neww {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 1300px;
+  padding-top: 50px;
+  align-items: baseline;
+}
+.neww__Eu {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  width: 306px;
+}
+.neww__Eu h2 {
+  font-family: "Circe Bold";
+  color: rgb(36, 34, 34);
+  font-weight: 700;
+  font-size: 24px;
+}
+.neww__Eu p {
+  font-family: "Circe";
+  padding-bottom: 35px;
+}
+.neww__Eu .button {
+  flex: 1 1 auto;
+  font-family: "Circe Bold";
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 100px;
+  margin-right: 260px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(236, 27, 46);
+  transition: all 0.3s;
+  cursor: pointer;
+  height: 40px;
+  line-height: 50px;
+}
+.neww__Eu .button:hover {
+  background-color: rgb(145, 35, 44);
+}
+.neww__Semper {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  width: 306px;
+}
+.neww__Semper h2 {
+  font-family: "Circe Bold";
+  color: rgb(36, 34, 34);
+  font-weight: 700;
+  font-size: 24px;
+}
+.neww__Semper p {
+  font-family: "Circe";
+  padding-bottom: 35px;
+}
+.neww__Semper .button {
+  flex: 1 1 auto;
+  font-family: "Circe Bold";
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 100px;
+  margin-right: 260px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(236, 27, 46);
+  transition: all 0.3s;
+  cursor: pointer;
+  height: 40px;
+  line-height: 50px;
+}
+.neww__Semper .button:hover {
+  background-color: rgb(145, 35, 44);
+}
+.neww__Sed {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  width: 306px;
+}
+.neww__Sed h2 {
+  font-family: "Circe Bold";
+  color: rgb(36, 34, 34);
+  font-weight: 700;
+  font-size: 24px;
+}
+.neww__Sed p {
+  font-family: "Circe";
+  padding-bottom: 35px;
+}
+.neww__Sed .button {
+  flex: 1 1 auto;
+  font-family: "Circe Bold";
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 100px;
+  margin-right: 260px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(236, 27, 46);
+  transition: all 0.3s;
+  cursor: pointer;
+  height: 40px;
+  line-height: 50px;
+}
+.neww__Sed .button:hover {
+  background-color: rgb(145, 35, 44);
+}
+.neww__Morbi {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  width: 306px;
+}
+.neww__Morbi h2 {
+  font-family: "Circe Bold";
+  color: rgb(36, 34, 34);
+  font-weight: 700;
+  font-size: 24px;
+  margin-top: 0px;
+}
+.neww__Morbi p {
+  font-family: "Circe";
+  padding-bottom: 85px;
+}
+.neww__Morbi .button {
+  flex: 1 1 auto;
+  font-family: "Circe";
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 100px;
+  margin-right: 260px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(236, 27, 46);
+  transition: all 0.3s;
+  cursor: pointer;
+  height: 40px;
+  line-height: 50px;
+}
+.neww__Morbi .button:hover {
+  background-color: rgb(145, 35, 44);
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1920px;
+  height: 588px;
+  background-color: rgba(51, 51, 51, 0.05);
+  margin-top: 60px;
+}
+.footer__section11 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 1300px;
+  height: 400px;
+  align-items: baseline;
+  margin-left: 312px;
+  padding-top: 30px;
+}
+.footer__section11 .one {
+  width: 217px;
+  height: 217px;
+}
+.footer__section11 .one .ispan {
+  display: flex;
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  color: rgb(51, 51, 51);
+  position: relative;
+}
+.footer__section11 .one .ispan h1 {
+  font-size: 14px;
+}
+.footer__section11 .one .punkt {
+  display: flex;
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  color: rgb(51, 51, 51);
+  position: relative;
+  text-align: center;
+  padding-top: 24px;
+}
+.footer__section11 .one .punkt__j {
+  width: 14px;
+  height: 18px;
+}
+.footer__section11 .one .punkt span {
+  width: 123px;
+  height: 20px;
+  font-size: 14px;
+  margin-left: 25px;
+}
+.footer__section11 .one .telefon {
+  display: flex;
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  color: rgb(51, 51, 51);
+  position: relative;
+  text-align: center;
+  padding-top: 24px;
+}
+.footer__section11 .one .telefon__p {
+  width: 20px;
+  height: 20px;
+}
+.footer__section11 .one .telefon span {
+  width: 109px;
+  height: 20px;
+  font-size: 14px;
+  margin-left: 23px;
+}
+.footer__section11 .one .pochta {
+  display: flex;
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  color: rgb(51, 51, 51);
+  position: relative;
+  text-align: center;
+  padding-top: 24px;
+}
+.footer__section11 .one .pochta__g {
+  width: 18px;
+  height: 15px;
+}
+.footer__section11 .one .pochta span {
+  width: 153px;
+  height: 20px;
+  font-size: 14px;
+  margin-left: 23px;
+}
+.footer__section11 .one .icon {
+  display: flex;
+  line-height: 100%;
+  position: relative;
+  padding-top: 50px;
+  justify-content: space-around;
+}
+.footer__section11 .one .icon .vk {
+  width: 30px;
+  height: 17px;
+}
+.footer__section11 .one .icon .yt {
+  width: 30px;
+  height: 20px;
+}
+.footer__section11 .one .icon .tg {
+  width: 25px;
+  height: 20px;
+}
+.footer__section11 .one .icon .sms {
+  width: 25px;
+  height: 22px;
+}
+.footer__section11 .two {
+  width: 200px;
+  height: 398px;
+  padding-left: 73px;
+}
+.footer__section11 .two .about_us {
+  display: flex;
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: 700;
+  color: rgb(51, 51, 51);
+  position: relative;
+}
+.footer__section11 .two .about_us h1 {
+  font-size: 20px;
+  width: 51px;
+  height: 28px;
+}
+.footer__section11 .two .intelligence {
+  width: 200px;
+  height: 20px;
+  font-size: 14px;
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: 400;
+  padding-top: 25px;
+  margin: 0%;
+}
+.footer__section11 .two .Structure {
+  width: 200px;
+  height: 40px;
+  font-size: 14px;
+  padding-top: 15px;
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: 400;
+  margin: 0%;
+}
+.footer__section11 .two .Documents {
+  width: 200px;
+  height: 20px;
+  font-size: 14px;
+  padding-top: 15px;
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: 400;
+  margin: 0%;
+}
+.footer__section11 .two .Education {
+  width: 200px;
+  height: 20px;
+  font-size: 14px;
+  padding-top: 15px;
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: 400;
+  margin: 0%;
+}
+.footer__section11 .two .standards {
+  width: 200px;
+  height: 20px;
+  font-size: 14px;
+  padding-top: 15px;
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: 400;
+  margin: 0%;
+}
+.footer__section11 .two .Guide {
+  width: 200px;
+  height: 40px;
+  font-size: 14px;
+  padding-top: 15px;
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: 400;
+  margin: 0%;
+}
+.footer__section11 .two .provision {
+  width: 200px;
+  height: 60px;
+  font-size: 14px;
+  padding-top: 15px;
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: 400;
+  margin: 0%;
+}
+.footer__section11 .two .Wednesday {
+  width: 200px;
+  height: 20px;
+  font-size: 14px;
+  padding-top: 15px;
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: 400;
+  margin: 0%;
+}
+.footer__section11 .three {
+  width: 200px;
+  height: 398px;
+  padding-left: 73px;
+}
+.footer__section11 .three .Schedule {
+  display: flex;
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: 700;
+  color: rgb(51, 51, 51);
+  position: relative;
+}
+.footer__section11 .three .Schedule h1 {
+  font-size: 20px;
+  width: 185px;
+  height: 28px;
+}
+.footer__section11 .three .classes {
+  width: 200px;
+  height: 20px;
+  font-size: 14px;
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: 400;
+  padding-top: 25px;
+  margin: 0%;
+}
+.footer__section11 .three .Courses_and_cost {
+  width: 200px;
+  height: 20px;
+  font-size: 14px;
+  padding-top: 15px;
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: 400;
+  margin: 0%;
+}
+.footer__section11 .three .works {
+  width: 200px;
+  height: 20px;
+  font-size: 14px;
+  padding-top: 15px;
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: 400;
+  margin: 0%;
+}
+.footer__section11 .three .Training {
+  display: flex;
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: 700;
+  color: rgb(51, 51, 51);
+  position: relative;
+  padding-top: 30px;
+}
+.footer__section11 .three .Training h1 {
+  font-size: 20px;
+  width: 159px;
+  height: 28px;
+}
+.footer__section11 .three .Scholarship {
+  width: 200px;
+  height: 20px;
+  font-size: 14px;
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: 400;
+  margin: 0%;
+}
+.footer__section11 .three .Linguistic {
+  width: 200px;
+  height: 20px;
+  font-size: 14px;
+  padding-top: 15px;
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: 400;
+  margin: 0%;
+}
+.footer__section11 .three .Decoration {
+  width: 200px;
+  height: 20px;
+  font-size: 14px;
+  padding-top: 15px;
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: 400;
+  margin: 0%;
+}
+.footer__section11 .four {
+  width: 200px;
+  height: 398px;
+  padding-left: 73px;
+}
+.footer__section11 .four .Exams {
+  display: flex;
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: 700;
+  color: rgb(51, 51, 51);
+  position: relative;
+}
+.footer__section11 .four .Exams h1 {
+  font-size: 20px;
+  width: 90px;
+  height: 28px;
+}
+.footer__section11 .four .MSK {
+  width: 200px;
+  height: 20px;
+  font-size: 14px;
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: 400;
+  padding-top: 25px;
+  margin: 0%;
+}
+.footer__section11 .four .OPT {
+  width: 200px;
+  height: 20px;
+  font-size: 14px;
+  padding-top: 15px;
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: 400;
+  margin: 0%;
+}
+.footer__section11 .four .YSV {
+  width: 200px;
+  height: 20px;
+  font-size: 14px;
+  padding-top: 15px;
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: 400;
+  margin: 0%;
+}
+.footer__section11 .four .NNB {
+  width: 200px;
+  height: 20px;
+  padding-top: 15px;
+  font-size: 14px;
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: 400;
+  margin: 0%;
+}
+.footer__section11 .four .online {
+  width: 200px;
+  height: 40px;
+  font-size: 14px;
+  padding-top: 15px;
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: 400;
+  margin: 0%;
+}
+.footer__section11 .four .full_time {
+  width: 200px;
+  height: 40px;
+  font-size: 14px;
+  padding-top: 15px;
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: 400;
+  margin: 0%;
+}
+.footer__section11 .four .Exam_schedule {
+  width: 200px;
+  height: 20px;
+  font-size: 14px;
+  padding-top: 15px;
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: 400;
+  margin: 0%;
+}
+.footer__section11 .five {
+  width: 200px;
+  height: 398px;
+  padding-left: 73px;
+}
+.footer__section11 .five .School2 {
+  display: flex;
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: 700;
+  color: rgb(51, 51, 51);
+  position: relative;
+}
+.footer__section11 .five .School2 h1 {
+  font-size: 20px;
+  width: 61px;
+  height: 28px;
+}
+.footer__section11 .five .News {
+  width: 200px;
+  height: 20px;
+  font-size: 14px;
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: 400;
+  padding-top: 25px;
+  margin: 0%;
+}
+.footer__section11 .five .Events {
+  width: 200px;
+  height: 20px;
+  font-size: 14px;
+  padding-top: 15px;
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: 400;
+  margin: 0%;
+}
+.footer__section11 .five .Photo_Gallery {
+  width: 200px;
+  height: 20px;
+  font-size: 14px;
+  padding-top: 15px;
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: 400;
+  margin: 0%;
+}
+.footer__section11 .five .Contacts {
+  width: 200px;
+  height: 20px;
+  padding-top: 15px;
+  font-size: 14px;
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: 400;
+  margin: 0%;
+}
+.footer__section11 .five .Reviews {
+  width: 200px;
+  height: 20px;
+  font-size: 14px;
+  padding-top: 15px;
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: 400;
+  margin: 0%;
+}
+.footer__section22 {
+  display: flex;
+  flex-direction: column;
+  flex-flow: column;
+  height: 50;
+  align-content: center;
+  align-items: flex-start;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  padding-left: 312px;
+}
+.footer__section22 .line {
+  width: 1300px;
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: rgba(51, 51, 51, 0.5);
+  border-top: solid 1px rgba(51, 51, 51, 0.5);
+}/*# sourceMappingURL=style.css.map */
